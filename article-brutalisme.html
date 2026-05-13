@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="murs murs - Le brutalisme au 21ème siècle">
+    <title>Le brutalisme au 21ème siècle | murs murs</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Specific Article Styles */
+        .article-hero {
+            padding: 150px 5% 50px;
+            max-width: 1000px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        
+        .article-tag {
+            color: var(--color-primary);
+            font-family: var(--font-heading);
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            display: inline-block;
+        }
+        
+        .article-title {
+            font-size: clamp(3rem, 6vw, 6rem);
+            line-height: 1;
+            margin-bottom: 2rem;
+        }
+        
+        .article-meta {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            opacity: 0.6;
+            margin-bottom: 3rem;
+            font-size: 1.1rem;
+        }
+        
+        .article-cover {
+            width: 100%;
+            height: 60vh;
+            background-image: url('images/brutal.png');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            margin-bottom: 4rem;
+            position: relative;
+        }
+        
+
+
+        .article-content {
+            max-width: 800px;
+            margin: 0 auto 100px;
+            padding: 0 5%;
+            font-size: 1.25rem;
+            line-height: 1.8;
+            font-weight: 300;
+        }
+        
+        .article-content p {
+            margin-bottom: 2rem;
+        }
+        
+        .article-content h2 {
+            font-size: 2.5rem;
+            margin: 3rem 0 1.5rem;
+            color: var(--color-primary);
+        }
+        
+        .article-content img {
+            width: 100%;
+            margin: 3rem 0;
+            filter: grayscale(100%);
+        }
+        
+        .back-link {
+            display: inline-block;
+            margin-top: 4rem;
+            font-family: var(--font-heading);
+            font-size: 1.5rem;
+            color: var(--bg-light);
+            text-decoration: underline;
+            text-decoration-color: var(--color-primary);
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <img src="lolo copie.png" alt="murs murs logo" class="original-color">
+            </a>
+            
+            <div class="nav-links">
+                <a href="articles.html">Tous les articles</a>
+                <a href="index.html#architecture">Architecture</a>
+                <a href="index.html#decoration">Décoration</a>
+                <a href="about.html" class="btn-primary">À propos</a>
+            </div>
+
+            <div class="burger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="article-hero">
+            <span class="article-tag">Reportage</span>
+            <h1 class="article-title">Le brutalisme au 21ème siècle</h1>
+            <div class="article-meta">
+                <span>Par murs_murs</span>
+                <span>20 Mai 2026</span>
+                <span>Temps de lecture: 1 min</span>
+            </div>
+        </section>
+
+        <div class="article-cover"></div>
+
+        <section class="article-content">
+            <p><strong>Né dans l'après-guerre, le brutalisme a longtemps été décrié pour son aspect froid et imposant. Aujourd'hui, il vit une véritable renaissance, porté par une nouvelle génération de créateurs qui magnifient le "béton brut".</strong></p>
+
+            <p>Il n'est plus question des barres d'immeubles ternes des années 70, mais plutôt d'une architecture géométrique, sculpturale, presque poétique, où la lumière vient caresser les textures rugueuses du ciment.</p>
+
+            <h2>Honnêteté des matériaux</h2>
+            
+            <p>Ce qui séduit dans le néo-brutalisme, c'est l'absence d'artifice. Il n'y a pas de peinture ni de papier peint pour cacher la structure. Le bâtiment s'expose tel qu'il est, avec les marques de ses coffrages et ses imperfections. Cette honnêteté brute résonne particulièrement à une époque saturée d'images filtrées.</p>
+
+            <img src="images/brutal.png" alt="Bâtiment néo-brutaliste">
+
+            <h2>La chaleur dans le brut</h2>
+
+            <p>Pour contrecarrer la froideur inhérente au béton, les architectes contemporains le marient astucieusement avec des matériaux organiques comme le bois chaud, des textiles riches et des plantes luxuriantes. Le contraste qui en résulte est d'une grande sophistication.</p>
+            
+            <p>Plus qu'un simple style, le brutalisme moderne s'affirme comme une déclaration d'indépendance esthétique, monumentale et inébranlable, qui prouve que l'on peut trouver de la grâce dans la robustesse absolue.</p>
+
+            <a href="index.html" class="back-link">← Retour à l'accueil</a>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="lolo copie.png" alt="murs murs logo" class="footer-logo-img original-color">
+                <p>Média indépendant sur l'architecture, la décoration et l'univers créatif.</p>
+            </div>
+            <div class="footer-links">
+                <div class="link-col">
+                    <h4>Catégories</h4>
+                    <a href="index.html#architecture">Architecture</a>
+                    <a href="index.html#decoration">Décoration</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 murs murs. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

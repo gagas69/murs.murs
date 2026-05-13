@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="murs murs - Article détaillé">
+    <title>Les maisons en bois brûlé | murs murs</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Specific Article Styles */
+        .article-hero {
+            padding: 150px 5% 50px;
+            max-width: 1000px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        
+        .article-tag {
+            color: var(--color-primary);
+            font-family: var(--font-heading);
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            display: inline-block;
+        }
+        
+        .article-title {
+            font-size: clamp(3rem, 6vw, 6rem);
+            line-height: 1;
+            margin-bottom: 2rem;
+        }
+        
+        .article-meta {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            opacity: 0.6;
+            margin-bottom: 3rem;
+            font-size: 1.1rem;
+        }
+        
+        .article-cover {
+            width: 100%;
+            height: 60vh;
+            background-image: url('images/wood.png');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            margin-bottom: 4rem;
+            position: relative;
+        }
+        
+
+
+        .article-content {
+            max-width: 800px;
+            margin: 0 auto 100px;
+            padding: 0 5%;
+            font-size: 1.25rem;
+            line-height: 1.8;
+            font-weight: 300;
+        }
+        
+        .article-content p {
+            margin-bottom: 2rem;
+        }
+        
+        .article-content h2 {
+            font-size: 2.5rem;
+            margin: 3rem 0 1.5rem;
+            color: var(--color-mint);
+        }
+        
+        .article-content img {
+            width: 100%;
+            margin: 3rem 0;
+            filter: grayscale(100%);
+        }
+        
+        .back-link {
+            display: inline-block;
+            margin-top: 4rem;
+            font-family: var(--font-heading);
+            font-size: 1.5rem;
+            color: var(--bg-light);
+            text-decoration: underline;
+            text-decoration-color: var(--color-primary);
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <img src="lolo copie.png" alt="murs murs logo" class="original-color">
+            </a>
+            
+            <div class="nav-links">
+                <a href="articles.html">Tous les articles</a>
+                <a href="index.html#architecture">Architecture</a>
+                <a href="index.html#decoration">Décoration</a>
+                <a href="about.html" class="btn-primary">À propos</a>
+            </div>
+
+            <div class="burger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="article-hero">
+            <span class="article-tag">Dossier</span>
+            <h1 class="article-title">Les maisons en bois brûlé</h1>
+            <div class="article-meta">
+                <span>Par murs_murs</span>
+                <span>13 Mai 2026</span>
+                <span>Temps de lecture: 1 min</span>
+            </div>
+        </section>
+
+        <div class="article-cover"></div>
+
+        <section class="article-content">
+            <p><strong>L'architecture contemporaine cherche constamment à allier esthétisme, durabilité et respect de l'environnement. Parmi les techniques qui reviennent en force, le bois brûlé, ou <em>Shou Sugi Ban</em>, s'impose comme une évidence pour les constructions modernes.</strong></p>
+
+            <p>Originaire du Japon, cette méthode ancestrale consiste à carboniser la surface du bois pour le protéger des intempéries, des insectes et même des incendies. Aujourd'hui, elle est adoptée par les architectes du monde entier pour créer des façades noires intenses, mates et texturées.</p>
+
+            <h2>Une esthétique radicale</h2>
+            
+            <p>Le contraste qu'offre une façade en bois brûlé avec son environnement immédiat est saisissant. En pleine nature, le noir profond se détache avec élégance contre le vert de la végétation ou le gris d'un ciel nuageux. En milieu urbain, il apporte une touche de sophistication brute qui tranche avec le béton et le verre environnants.</p>
+
+            <img src="images/hero.png" alt="Exemple de maison moderne">
+
+            <h2>La durabilité avant tout</h2>
+
+            <p>Au-delà de son aspect visuel indéniable, le bois brûlé est un choix extrêmement rationnel. La couche de carbone qui se forme lors de la combustion agit comme une carapace protectrice. Elle rend le bois imputrescible, le protège des UV (qui griseraient un bois classique) et repousse naturellement les insectes xylophages.</p>
+            
+            <p>Ainsi, contrairement aux bardages en bois traditionnel qui demandent un entretien régulier, une façade en bois brûlé peut traverser les décennies sans aucune intervention majeure, tout en conservant son aspect originel.</p>
+
+            <a href="index.html" class="back-link">← Retour à l'accueil</a>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="lolo copie.png" alt="murs murs logo" class="footer-logo-img original-color">
+                <p>Média indépendant sur l'architecture, la décoration et l'univers créatif.</p>
+            </div>
+            <div class="footer-links">
+                <div class="link-col">
+                    <h4>Catégories</h4>
+                    <a href="index.html#architecture">Architecture</a>
+                    <a href="index.html#decoration">Décoration</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 murs murs. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="murs murs - À propos de notre média d'architecture indépendant.">
+    <title>À Propos | murs murs</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .about-hero {
+            padding: 180px 5% 50px;
+            max-width: 1000px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        
+        .about-title {
+            font-size: clamp(3rem, 6vw, 6rem);
+            line-height: 1;
+            margin-bottom: 2rem;
+            color: var(--color-primary);
+        }
+        
+        .manifesto {
+            font-size: 2rem;
+            font-weight: 400;
+            line-height: 1.4;
+            color: var(--bg-light);
+            margin-bottom: 4rem;
+        }
+
+        .about-content {
+            max-width: 800px;
+            margin: 0 auto 100px;
+            padding: 0 5%;
+            font-size: 1.25rem;
+            line-height: 1.8;
+            font-weight: 300;
+        }
+        
+        .about-content h2 {
+            font-size: 2.5rem;
+            margin: 3rem 0 1.5rem;
+            color: var(--color-mint);
+        }
+
+        .about-content h2:nth-of-type(even) {
+            color: var(--color-peach);
+        }
+        
+        .about-content p {
+            margin-bottom: 2rem;
+        }
+
+        .newsletter-box {
+            background-color: var(--bg-light);
+            color: var(--bg-dark);
+            padding: 3rem;
+            text-align: center;
+            border-radius: 8px;
+            margin-top: 4rem;
+        }
+
+        .newsletter-box h3 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: var(--bg-dark);
+        }
+
+        .newsletter-box p {
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+        }
+
+        .newsletter-form {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .newsletter-form input {
+            padding: 1rem 1.5rem;
+            border: 1px solid rgba(8, 28, 36, 0.2);
+            border-radius: 50px;
+            font-family: var(--font-body);
+            font-size: 1rem;
+            width: 100%;
+            max-width: 350px;
+            background-color: transparent;
+        }
+
+        .newsletter-form input:focus {
+            outline: none;
+            border-color: var(--bg-dark);
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <img src="lolo copie.png" alt="murs murs logo" class="original-color">
+            </a>
+            
+            <div class="nav-links">
+                <a href="articles.html">Tous les articles</a>
+                <a href="index.html#architecture">Architecture</a>
+                <a href="index.html#decoration">Décoration</a>
+                <a href="about.html" class="btn-primary">À propos</a>
+            </div>
+
+            <div class="burger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="about-hero">
+            <h1 class="about-title">À Propos</h1>
+            <p class="manifesto">Murs Murs est le trait d'union entre l'architecture pure et l'émotion de l'habitat.</p>
+        </section>
+
+        <section class="about-content">
+            <h2>La Genèse</h2>
+            <p>Parce que chaque mur murmure une histoire, nous avons décidé de tendre l'oreille. Murs Murs est né d'un besoin viscéral : celui d'apporter un regard frais, exigeant et profondément humain sur l'architecture. Édité par la société GASD et fondé par Gaspard Degorre, notre média indépendant a été pensé pour s'éloigner des catalogues froids et célébrer l'art de vivre dans sa forme la plus inspirante.</p>
+
+            <h2>L'Engagement</h2>
+            <p>Être un média indépendant aujourd'hui, c'est avant tout un choix. C'est le choix de la liberté de ton. Cela signifie que nous nous imposons une sélection rigoureuse des projets que nous mettons en lumière. Nous ne nous contentons pas de suivre les tendances ; nous cherchons l'intemporel, l'esthétisme véritable et la singularité de chaque démarche architecturale.</p>
+
+            <h2>Notre Vision</h2>
+            <p>Chez Murs Murs, nous refusons de nous arrêter à la simple esthétique d'une photographie. Nous racontons les lieux de vie. Nous vous parlons de la chaleur d'une texture, de l'honnêteté d'un matériau brut, et de la façon dont la lumière vient sculpter un espace de vie. Des projets de construction novateurs aux maisons singulières, en passant prochainement par la rénovation minutieuse d'immeubles parisiens, nous décryptons l'âme des lieux.</p>
+
+            <div class="newsletter-box">
+                <h3>Prolongez l'inspiration</h3>
+                <p>Rejoignez notre communauté d'esthètes et recevez nos dernières découvertes architecturales directement dans votre boîte mail.</p>
+                <form class="newsletter-form" onsubmit="event.preventDefault();">
+                    <input type="email" placeholder="Votre adresse e-mail" required>
+                    <button type="submit" class="btn-secondary">S'abonner</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="lolo copie.png" alt="murs murs logo" class="footer-logo-img original-color">
+                <p>Média indépendant sur l'architecture, la décoration et l'univers créatif.</p>
+            </div>
+            <div class="footer-links">
+                <div class="link-col">
+                    <h4>Catégories</h4>
+                    <a href="index.html#architecture">Architecture</a>
+                    <a href="index.html#decoration">Décoration</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 murs murs. Tous droits réservés. Édité par la société GASD.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

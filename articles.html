@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="murs murs - Tous les articles">
+    <title>Tous les articles | murs murs</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .page-header {
+            padding: 150px 5% 50px;
+            max-width: 1400px;
+            margin: 0 auto;
+            text-align: left;
+        }
+        
+        .page-header h1 {
+            font-size: clamp(4rem, 6vw, 6rem);
+            line-height: 1;
+            margin-bottom: 1rem;
+            color: var(--bg-light);
+        }
+        
+        .page-header p {
+            font-size: 1.2rem;
+            opacity: 0.8;
+            max-width: 600px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <img src="lolo copie.png" alt="murs murs logo" class="original-color">
+            </a>
+            
+            <div class="nav-links">
+                <a href="articles.html">Tous les articles</a>
+                <a href="index.html#architecture">Architecture</a>
+                <a href="index.html#decoration">Décoration</a>
+                <a href="about.html" class="btn-primary">À propos</a>
+            </div>
+
+            <div class="burger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="page-header">
+            <h1>Tous les articles <span class="dot">.</span></h1>
+            <p>Retrouvez l'intégralité de nos dossiers, interviews et reportages autour de l'architecture, du design et de la décoration.</p>
+        </section>
+
+        <!-- Articles Grid Section -->
+        <section class="articles-section" style="padding-top: 0;">
+            <div class="grid-container">
+                <!-- Article 1 -->
+                <a href="article.html" class="card card-mint" style="display: block;">
+                    <div class="card-img-wrapper">
+                        <div class="card-img placeholder-arch1"></div>
+                        <div class="card-frame"></div>
+                    </div>
+                    <div class="card-content">
+                        <span class="tag">Dossier</span>
+                        <h3>Les maisons en bois brûlé : Esthétique et durabilité</h3>
+                        <p>Plongée au cœur d'une technique ancestrale japonaise qui redéfinit l'architecture contemporaine.</p>
+                    </div>
+                </a>
+
+                <!-- Article 2 -->
+                <a href="article-urbain.html" class="card card-peach" style="display: block;">
+                    <div class="card-img-wrapper">
+                        <div class="card-img placeholder-arch2"></div>
+                        <div class="card-frame"></div>
+                    </div>
+                    <div class="card-content">
+                        <span class="tag">Interview</span>
+                        <h3>Repenser l'espace de vie urbain</h3>
+                        <p>Rencontre avec l'architecte qui transforme des espaces restreints en véritables havres de paix.</p>
+                    </div>
+                </a>
+                
+                <!-- Article 3 -->
+                <a href="article-brutalisme.html" class="card card-primary" style="display: block;">
+                    <div class="card-img-wrapper">
+                        <div class="card-img placeholder-arch3"></div>
+                        <div class="card-frame"></div>
+                    </div>
+                    <div class="card-content">
+                        <span class="tag">Reportage</span>
+                        <h3>Le brutalisme au 21ème siècle</h3>
+                        <p>Comment le béton brut continue d'inspirer des créations grandioses et minimalistes.</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="lolo copie.png" alt="murs murs logo" class="footer-logo-img original-color">
+                <p>Média indépendant sur l'architecture, la décoration et l'univers créatif.</p>
+            </div>
+            <div class="footer-links">
+                <div class="link-col">
+                    <h4>Catégories</h4>
+                    <a href="index.html#architecture">Architecture</a>
+                    <a href="index.html#decoration">Décoration</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 murs murs. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

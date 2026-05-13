@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="murs murs - Média sur l'architecture, la décoration et l'univers créatif.">
+    <title>murs murs | Architecture & Décoration</title>
+    
+    <!-- Google Fonts as fallback -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <!-- Using the provided logo file -->
+                <img src="lolo copie.png" alt="murs murs logo" class="original-color">
+            </a>
+            
+            <div class="nav-links">
+                <a href="articles.html">Tous les articles</a>
+                <a href="#architecture">Architecture</a>
+                <a href="#decoration">Décoration</a>
+                <a href="about.html" class="btn-primary">À propos</a>
+            </div>
+
+            <div class="burger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1>house of<br><span class="highlight-text">murs murs</span></h1>
+                <p>Découvrez l'essence de l'architecture moderne et des espaces de vie inspirants. L'univers créatif à portée de main.</p>
+                <a href="#architecture" class="btn-primary">Explorer</a>
+            </div>
+            <div class="hero-image-wrapper">
+                <div class="hero-image placeholder-hero">
+                    <!-- Diagonal color block effect implemented in CSS -->
+                    <div class="color-block-diag"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Articles Grid Section -->
+        <section id="architecture" class="articles-section">
+            <div class="section-header">
+                <h2>Architecture <span class="dot">.</span></h2>
+                <a href="articles.html" class="view-all">Tout voir →</a>
+            </div>
+            
+            <div class="grid-container">
+                <!-- Article 1 -->
+                <a href="article.html" class="card card-mint" style="display: block;">
+                    <div class="card-img-wrapper">
+                        <div class="card-img placeholder-arch1"></div>
+                        <div class="card-frame"></div>
+                    </div>
+                    <div class="card-content">
+                        <span class="tag">Dossier</span>
+                        <h3>Les maisons en bois brûlé : Esthétique et durabilité</h3>
+                        <p>Plongée au cœur d'une technique ancestrale japonaise qui redéfinit l'architecture contemporaine.</p>
+                    </div>
+                </a>
+
+                <!-- Article 2 -->
+                <a href="article-urbain.html" class="card card-peach" style="display: block;">
+                    <div class="card-img-wrapper">
+                        <div class="card-img placeholder-arch2"></div>
+                        <div class="card-frame"></div>
+                    </div>
+                    <div class="card-content">
+                        <span class="tag">Interview</span>
+                        <h3>Repenser l'espace de vie urbain</h3>
+                        <p>Rencontre avec l'architecte qui transforme des espaces restreints en véritables havres de paix.</p>
+                    </div>
+                </a>
+                
+                <!-- Article 3 -->
+                <a href="article-brutalisme.html" class="card card-primary" style="display: block;">
+                    <div class="card-img-wrapper">
+                        <div class="card-img placeholder-arch3"></div>
+                        <div class="card-frame"></div>
+                    </div>
+                    <div class="card-content">
+                        <span class="tag">Reportage</span>
+                        <h3>Le brutalisme au 21ème siècle</h3>
+                        <p>Comment le béton brut continue d'inspirer des créations grandioses et minimalistes.</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <section id="decoration" class="articles-section alternate-bg">
+            <div class="section-header">
+                <h2>Décoration <span class="dot">.</span></h2>
+            </div>
+            <div class="banner-highlight">
+                <div class="banner-content">
+                    <h3>Minimalisme chaleureux</h3>
+                    <p>Découvrez comment allier lignes épurées et textures réconfortantes pour votre intérieur.</p>
+                    <a href="#" class="btn-secondary">Lire l'article</a>
+                </div>
+                <div class="banner-image placeholder-deco"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="lolo copie.png" alt="murs murs logo" class="footer-logo-img original-color">
+                <p>Média indépendant sur l'architecture, la décoration et l'univers créatif.</p>
+            </div>
+            <div class="footer-links">
+                <div class="link-col">
+                    <h4>Catégories</h4>
+                    <a href="#">Architecture</a>
+                    <a href="#">Décoration</a>
+                </div>
+                <div class="link-col">
+                    <h4>Informations</h4>
+                    <a href="#">À propos</a>
+                    <a href="#">Contact</a>
+                    <a href="#">Mentions légales</a>
+                </div>
+                <div class="link-col">
+                    <h4>Suivez-nous</h4>
+                    <a href="#">Instagram</a>
+                    <a href="#">Pinterest</a>
+                    <a href="#">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 murs murs. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="murs murs - Repenser l'espace de vie urbain">
+    <title>Repenser l'espace de vie urbain | murs murs</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Specific Article Styles */
+        .article-hero {
+            padding: 150px 5% 50px;
+            max-width: 1000px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        
+        .article-tag {
+            color: var(--color-primary);
+            font-family: var(--font-heading);
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            display: inline-block;
+        }
+        
+        .article-title {
+            font-size: clamp(3rem, 6vw, 6rem);
+            line-height: 1;
+            margin-bottom: 2rem;
+        }
+        
+        .article-meta {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            opacity: 0.6;
+            margin-bottom: 3rem;
+            font-size: 1.1rem;
+        }
+        
+        .article-cover {
+            width: 100%;
+            height: 60vh;
+            background-image: url('images/urban.png');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            margin-bottom: 4rem;
+            position: relative;
+        }
+        
+
+
+        .article-content {
+            max-width: 800px;
+            margin: 0 auto 100px;
+            padding: 0 5%;
+            font-size: 1.25rem;
+            line-height: 1.8;
+            font-weight: 300;
+        }
+        
+        .article-content p {
+            margin-bottom: 2rem;
+        }
+        
+        .article-content h2 {
+            font-size: 2.5rem;
+            margin: 3rem 0 1.5rem;
+            color: var(--color-peach);
+        }
+        
+        .article-content img {
+            width: 100%;
+            margin: 3rem 0;
+            filter: grayscale(100%);
+        }
+        
+        .back-link {
+            display: inline-block;
+            margin-top: 4rem;
+            font-family: var(--font-heading);
+            font-size: 1.5rem;
+            color: var(--bg-light);
+            text-decoration: underline;
+            text-decoration-color: var(--color-primary);
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <img src="lolo copie.png" alt="murs murs logo" class="original-color">
+            </a>
+            
+            <div class="nav-links">
+                <a href="articles.html">Tous les articles</a>
+                <a href="index.html#architecture">Architecture</a>
+                <a href="index.html#decoration">Décoration</a>
+                <a href="about.html" class="btn-primary">À propos</a>
+            </div>
+
+            <div class="burger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="article-hero">
+            <span class="article-tag">Interview</span>
+            <h1 class="article-title">Repenser l'espace de vie urbain</h1>
+            <div class="article-meta">
+                <span>Par murs_murs</span>
+                <span>15 Mai 2026</span>
+                <span>Temps de lecture: 1 min</span>
+            </div>
+        </section>
+
+        <div class="article-cover"></div>
+
+        <section class="article-content">
+            <p><strong>Avec la densification des métropoles, les mètres carrés n'ont jamais été aussi précieux. Rencontre avec des architectes qui ont fait le pari de transformer des espaces ultra-restreints en véritables havres de paix minimalistes et ultra-fonctionnels.</strong></p>
+
+            <p>La vie en ville impose aujourd'hui de revoir complètement notre rapport à l'habitat. Fini l'accumulation d'objets, place au minimalisme où chaque meuble a une double, voire une triple fonction.</p>
+
+            <h2>La lumière comme espace</h2>
+            
+            <p>L'un des plus grands défis de l'architecture urbaine est l'apport de lumière naturelle. Plutôt que de diviser les pièces, la tendance est à l'ouverture totale avec des cloisons en verre, des murs clairs et l'intégration de matériaux bruts comme le béton lissé qui réfléchit la luminosité.</p>
+
+            <img src="images/urban.png" alt="Appartement urbain minimaliste">
+
+            <h2>Le luxe du vide</h2>
+
+            <p>Paradoxalement, pour vivre confortablement dans un petit espace, il faut créer du vide. Les rangements sur-mesure invisibles du sol au plafond permettent d'effacer le désordre de la vie quotidienne pour ne laisser place qu'aux lignes pures de l'architecture.</p>
+            
+            <p>C'est dans cette quête de simplicité que l'appartement urbain de demain se dessine : intelligent, épuré, et surtout, pensé autour du bien-être psychologique de ses occupants, offrant un vrai refuge face au tumulte de la ville.</p>
+
+            <a href="index.html" class="back-link">← Retour à l'accueil</a>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="lolo copie.png" alt="murs murs logo" class="footer-logo-img original-color">
+                <p>Média indépendant sur l'architecture, la décoration et l'univers créatif.</p>
+            </div>
+            <div class="footer-links">
+                <div class="link-col">
+                    <h4>Catégories</h4>
+                    <a href="index.html#architecture">Architecture</a>
+                    <a href="index.html#decoration">Décoration</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 murs murs. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
